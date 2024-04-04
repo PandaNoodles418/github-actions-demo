@@ -3,7 +3,7 @@
 {
 	"name": "Ubuntu",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "ubuntu:latest",
+	"build": { "dockerfile": "./Dockerfile" },
 	"features": {
 		"ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {},
 		"ghcr.io/devcontainers-contrib/features/apt-get-packages:1": {},
